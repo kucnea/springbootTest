@@ -35,6 +35,28 @@ public class BoardService {
 		return list;
 	}
 
+	public Board find(Integer bIdx) {
+		
+		Board board = boardRepository.findTopByBIdx(bIdx);
+		
+		return board;
+	}
+
+	public Board update(Board board) {
+		
+		Board boardTemp = boardRepository.findTopByBIdx(board.getBIdx());
+		boardTemp.setBTitle(board.getBTitle());
+		boardTemp.setBContent(board.getBContent());
+		return boardRepository.save(boardTemp);
+		
+	}
+
+	public void delete(int bIdx) {
+//		Board boardTemp = boardRepository.findTopByBIdx(bIdx);
+//		boardRepository.delete(boardTemp);
+		boardRepository.deleteById(bIdx);
+	}
+
 	
 	
 }

@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import com.example.demo.entity.Member;
 
 public interface MemberRepository extends JpaRepository<Member, Integer>{
-	Member findByMId(String MId);
+	Member findTopByMId(String MId);
 }

@@ -1,4 +1,4 @@
-package com.example.demo.Controller;
+package com.example.demo.controller;
 
 import javax.annotation.Nullable;
 import javax.servlet.http.HttpServletRequest;
@@ -24,14 +24,13 @@ public class JoinController {
 	
 	@GetMapping("/joinpage")
 	public String joinPage() throws Exception {
-		
 		return "join.joinPage";
 	}
 	
 	@PostMapping("/insertmember")
 	public String insertMember(@ModelAttribute Member member, Model model, HttpServletRequest request) {
 		
-		System.out.println("MId : "+member.getMId()+", MPw : "+member.getMPw());
+		System.out.println("InsertStage MId : "+member.getMId()+", MPw : "+member.getMPw());
 		int result = memberService.creat(member); 
 		HttpSession session = request.getSession();
 		
@@ -57,4 +56,37 @@ public class JoinController {
 		return "join.joinPage";
 	}
 	
+	@GetMapping("/loginpage")
+	public String loginPage() {
+		
+		return "join.loginPage";
+	}
+	
+	@PostMapping("/loginmember")
+	public String loginMember(@ModelAttribute Member member, Model model, HttpServletRequest request) {
+		
+		HttpSession session = request.getSession();
+		
+		System.out.println("LoginStage MId : "+member.getMId()+", MPw : "+member.getMPw());
+		member = memberService.login(member);
+		if(member!=null) System.out.println("member MId : "+member.getMId());
+		else System.out.println("Is member null : "+(member==null));
+		
+		if(member!=null) session.setAttribute("member", member); 
+		else {
+			model.addAttribute("result",1);
+			return "join.loginPage";
+		}
+		
+		return "root.index";
+	}
+	
+	@GetMapping("/logout")
+	public String logout(HttpServletRequest request) {
+		
+		HttpSession session = request.getSession();
+		session.removeAttribute("member");
+		
+		return "root.index";
+	}
 }

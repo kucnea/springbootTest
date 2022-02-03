@@ -24,9 +24,16 @@ public class MemberService {
 	
 	public boolean validId(String MId) {
 		
-		if(memberRepository.findByMId(MId) != null) return false;
+		if(memberRepository.findTopByMId(MId) != null) return false;
 		else return true;
 		
+	}
+
+	public Member login(Member member) {
+		
+		Member result = memberRepository.findTopByMId(member.getMId());
+		
+		return result;
 	}
 	
 }

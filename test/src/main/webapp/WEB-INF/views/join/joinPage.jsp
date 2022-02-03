@@ -22,17 +22,17 @@
 <h1>회원가입</h1>
 <hr>
 <form id="joinform" action="/join/insertmember" method="post">
-	ID : <input type="text" id="MId" name="MId" placeholder="Input Your ID" value="${preset }"> <input type="button" value="중복확인" onclick="validId()">
+	ID : <input type="text" id="MId" name="MId" placeholder="Input Your ID" value="${preset }" required> <input type="button" value="중복확인" onclick="validId()">
 	<c:choose>
     	<c:when test="${result == 1 }">
     		<font size="0.7em" color="red"> 사용 가능한 ID 입니다.</font>
     	</c:when>
-    	<c:when test="${result1 == 2 }">
+    	<c:when test="${result == 2 }">
     		<font size="0.7em" color="red"> 사용 불가한 ID 입니다.</font>
     	</c:when>
     </c:choose>
      <br>
-	PW : <input type="text" id="MPw" name="MPw" placeholder="Input Your PASSWORD"> <br>
+	PW : <input type="text" id="MPw" name="MPw" placeholder="Input Your PASSWORD" required> <br>
 	<input type="submit" value="가입하기">
 </form>
 
