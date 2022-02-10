@@ -51,5 +51,16 @@
 		</c:otherwise>
 	</c:choose>
 	
+	<c:if test="${page.hasPrevious() }">
+	<a onclick="location.href='/board/list'">&lt;</a>
+	</c:if>
+	
+	<c:forEach begin="1" end="${pageS.getTotalPages() }" var="pageIndex">
+		<a onclick="location.href='/board/list?page=${index}'">${index }</a>
+	</c:forEach>
+	
+	<c:if test="${page.hasNext() }">
+	<a onclick="location.href='/board/list'">&gt;</a>
+	</c:if>
 </body>
 </html>

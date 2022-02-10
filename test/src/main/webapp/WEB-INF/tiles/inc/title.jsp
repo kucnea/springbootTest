@@ -5,8 +5,10 @@
 <head>
 </head>
 	<div style="background-color:orange;" >
-		<b style="font-size:2em;" >hello Test Page</b>
+		<a onclick="location.href='/'" style="font:bold; font-size:2em;">hello Test Page</a>
 		<div style="float:right; height:100%">
+		<input type="button" id="homeBtn" value="메인화면" width="30%" height="100%" onclick="location.href='/'">
+		
 		<c:choose>
 			<c:when test="${member eq null }">
 				<input type="button" id="joinBtn" value="회원가입" width="30%" height="100%" onclick="location.href='/join/joinpage'">

@@ -33,19 +33,22 @@ public class BoardController {
 			@RequestParam("size") @Nullable Integer size
 			) {
 		
-		if(page==null) page=1;
+		if(page==null || page==0) page=1;
 		if(size==null) size=10;
+		page -= 1;
 		
-		page-=1;
 		Page<Board> pages = boardService.searchList(page,size);
 		
 		if(page<0) page=0;
 		else if(page>pages.getTotalPages()) page=pages.getTotalPages();
 		
 		List<Board> list = pages.getContent();
-		
+
 		System.out.println("list.size() : "+list.size());
-		if(list.size()!=0) model.addAttribute("list", list);
+		if(list.size()!=0) {
+			model.addAttribute("page", pages);
+			model.addAttribute("list", list);
+		}
 		else model.addAttribute("msg", "1");
 		
 		return "board.boardPage";
