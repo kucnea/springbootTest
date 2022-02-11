@@ -2,12 +2,12 @@ package com.example.demo.controller;
 
 import java.util.List;
 
-import javax.annotation.Nullable;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,8 +20,12 @@ import com.example.demo.entity.Board;
 import com.example.demo.entity.Member;
 import com.example.demo.service.BoardService;
 
+import lombok.extern.log4j.Log4j2;
+
+
 @Controller
 @RequestMapping("/board/")
+@Log4j2
 public class BoardController {
 	
 	@Autowired BoardService boardService;
@@ -36,10 +40,16 @@ public class BoardController {
 		if(size==null) size=10;
 		page -= 1;
 		
+		log.info("boardController Stage");
+		
 		Page<Board> pages = boardService.searchList(page,size);
 		
-		if(page<0) page=0;
-		else if(page>pages.getTotalPages()) page=pages.getTotalPages();
+		if(pages.isEmpty()) {
+			page=0;
+			size=10;
+			
+			pages = boardService.searchList(page,size);
+		}
 		
 		List<Board> list = pages.getContent();
 

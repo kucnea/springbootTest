@@ -1,0 +1,163 @@
+2022-02-11 15:36:07.717  INFO 10340 --- [main] com.example.demo.TestApplication         : Starting TestApplication using Java 1.8.0_301 on DESKTOP-I4UNMCC with PID 10340 (C:\Users\KoYoCo06\git\springbootTest\test\target\classes started by KoYoCo06 in C:\Users\KoYoCo06\git\springbootTest\test)
+2022-02-11 15:36:07.721  INFO 10340 --- [main] com.example.demo.TestApplication         : No active profile set, falling back to default profiles: default
+2022-02-11 15:36:08.537  INFO 10340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-11 15:36:08.603  INFO 10340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2022-02-11 15:36:09.285  INFO 10340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8073 (http)
+2022-02-11 15:36:09.298  INFO 10340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-11 15:36:09.299  INFO 10340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-11 15:36:09.688  INFO 10340 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-02-11 15:36:09.697  INFO 10340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-11 15:36:09.697  INFO 10340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1911 ms
+2022-02-11 15:36:10.075  INFO 10340 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-11 15:36:10.152  INFO 10340 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-11 15:36:10.408  INFO 10340 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-11 15:36:11.450  INFO 10340 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-02-11 15:36:12.666  INFO 10340 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-11 15:36:12.679  INFO 10340 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 15:36:13.575  INFO 10340 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-02-11 15:36:13.905  INFO 10340 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-11 15:36:14.108  INFO 10340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8073 (http) with context path ''
+2022-02-11 15:36:14.121  INFO 10340 --- [main] com.example.demo.TestApplication         : Started TestApplication in 6.912 seconds (JVM running for 7.815)
+2022-02-11 15:36:23.754  INFO 10340 --- [http-nio-8073-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-11 15:36:23.755  INFO 10340 --- [http-nio-8073-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-11 15:36:23.756  INFO 10340 --- [http-nio-8073-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-11 15:36:23.804  INFO 10340 --- [http-nio-8073-exec-1] c.e.demo.controller.BoardController      : boardController Stage
+2022-02-11 15:38:49.620  INFO 10340 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-02-11 15:38:49.811  INFO 10340 --- [RMI TCP Connection(6)-127.0.0.1] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-02-11 15:38:49.813  INFO 10340 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 15:41:44.054  INFO 1492 --- [main] com.example.demo.TestApplication         : Starting TestApplication using Java 1.8.0_301 on DESKTOP-I4UNMCC with PID 1492 (C:\Users\KoYoCo06\git\springbootTest\test\target\classes started by KoYoCo06 in C:\Users\KoYoCo06\git\springbootTest\test)
+2022-02-11 15:41:44.059  INFO 1492 --- [main] com.example.demo.TestApplication         : No active profile set, falling back to default profiles: default
+2022-02-11 15:41:44.972  INFO 1492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-11 15:41:45.039  INFO 1492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2022-02-11 15:41:45.735  INFO 1492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8073 (http)
+2022-02-11 15:41:45.748  INFO 1492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-11 15:41:45.748  INFO 1492 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-11 15:41:46.106  INFO 1492 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-02-11 15:41:46.116  INFO 1492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-11 15:41:46.116  INFO 1492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1995 ms
+2022-02-11 15:41:46.487  INFO 1492 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-11 15:41:46.562  INFO 1492 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-11 15:41:46.811  INFO 1492 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-11 15:41:47.852  INFO 1492 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-02-11 15:41:49.091  INFO 1492 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-11 15:41:49.104  INFO 1492 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 15:41:49.917  INFO 1492 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-02-11 15:41:50.216  INFO 1492 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-11 15:41:50.427  INFO 1492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8073 (http) with context path ''
+2022-02-11 15:41:50.439  INFO 1492 --- [main] com.example.demo.TestApplication         : Started TestApplication in 6.88 seconds (JVM running for 7.887)
+2022-02-11 15:41:59.894  INFO 1492 --- [http-nio-8073-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-11 15:41:59.896  INFO 1492 --- [http-nio-8073-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-11 15:41:59.897  INFO 1492 --- [http-nio-8073-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-11 15:41:59.944  INFO 1492 --- [http-nio-8073-exec-1] c.e.demo.controller.BoardController      : boardController Stage
+2022-02-11 15:42:54.924  INFO 1492 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-02-11 15:42:55.082  INFO 1492 --- [RMI TCP Connection(3)-127.0.0.1] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-02-11 15:42:55.084  INFO 1492 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 15:43:14.099  INFO 7096 --- [main] com.example.demo.TestApplication         : Starting TestApplication using Java 1.8.0_301 on DESKTOP-I4UNMCC with PID 7096 (C:\Users\KoYoCo06\git\springbootTest\test\target\classes started by KoYoCo06 in C:\Users\KoYoCo06\git\springbootTest\test)
+2022-02-11 15:43:14.103  INFO 7096 --- [main] com.example.demo.TestApplication         : No active profile set, falling back to default profiles: default
+2022-02-11 15:43:14.989  INFO 7096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-11 15:43:15.068  INFO 7096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2022-02-11 15:43:15.703  INFO 7096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8073 (http)
+2022-02-11 15:43:15.717  INFO 7096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-11 15:43:15.717  INFO 7096 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-11 15:43:16.045  INFO 7096 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-02-11 15:43:16.053  INFO 7096 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-11 15:43:16.053  INFO 7096 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1883 ms
+2022-02-11 15:43:16.371  INFO 7096 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-11 15:43:16.440  INFO 7096 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-11 15:43:16.694  INFO 7096 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-11 15:43:17.647  INFO 7096 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-02-11 15:43:18.740  INFO 7096 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-11 15:43:18.752  INFO 7096 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 15:43:19.493  INFO 7096 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-02-11 15:43:19.751  INFO 7096 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-11 15:43:19.914  INFO 7096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8073 (http) with context path ''
+2022-02-11 15:43:19.925  INFO 7096 --- [main] com.example.demo.TestApplication         : Started TestApplication in 6.332 seconds (JVM running for 7.277)
+2022-02-11 15:43:36.907  INFO 7096 --- [http-nio-8073-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-11 15:43:36.907  INFO 7096 --- [http-nio-8073-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-11 15:43:36.909  INFO 7096 --- [http-nio-8073-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-11 15:43:36.957  INFO 7096 --- [http-nio-8073-exec-1] c.e.demo.controller.BoardController      : boardController Stage
+2022-02-11 15:43:37.554  INFO 7096 --- [http-nio-8073-exec-2] c.e.demo.controller.BoardController      : boardController Stage
+2022-02-11 15:46:32.434  INFO 7096 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-02-11 15:46:32.639  INFO 7096 --- [RMI TCP Connection(7)-127.0.0.1] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-02-11 15:46:32.641  INFO 7096 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 15:48:39.855  INFO 10484 --- [main] com.example.demo.TestApplication         : Starting TestApplication using Java 1.8.0_301 on DESKTOP-I4UNMCC with PID 10484 (C:\Users\KoYoCo06\git\springbootTest\test\target\classes started by KoYoCo06 in C:\Users\KoYoCo06\git\springbootTest\test)
+2022-02-11 15:48:39.859  INFO 10484 --- [main] com.example.demo.TestApplication         : No active profile set, falling back to default profiles: default
+2022-02-11 15:48:40.707  INFO 10484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-11 15:48:40.780  INFO 10484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2022-02-11 15:48:41.501  INFO 10484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8073 (http)
+2022-02-11 15:48:41.517  INFO 10484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-11 15:48:41.517  INFO 10484 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-11 15:48:41.903  INFO 10484 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-02-11 15:48:41.913  INFO 10484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-11 15:48:41.913  INFO 10484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1972 ms
+2022-02-11 15:48:42.304  INFO 10484 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-11 15:48:42.401  INFO 10484 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-11 15:48:42.720  INFO 10484 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-11 15:48:43.845  INFO 10484 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-02-11 15:48:45.154  INFO 10484 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-11 15:48:45.166  INFO 10484 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 15:48:45.984  INFO 10484 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-02-11 15:48:46.268  INFO 10484 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-11 15:48:46.477  INFO 10484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8073 (http) with context path ''
+2022-02-11 15:48:46.489  INFO 10484 --- [main] com.example.demo.TestApplication         : Started TestApplication in 7.157 seconds (JVM running for 8.054)
+2022-02-11 15:48:50.205  INFO 10484 --- [http-nio-8073-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-11 15:48:50.206  INFO 10484 --- [http-nio-8073-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-11 15:48:50.207  INFO 10484 --- [http-nio-8073-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-11 15:48:50.263  INFO 10484 --- [http-nio-8073-exec-1] c.e.demo.controller.BoardController      : boardController Stage
+2022-02-11 15:49:19.406  INFO 10484 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-02-11 15:49:19.567  INFO 10484 --- [RMI TCP Connection(2)-127.0.0.1] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-02-11 15:49:19.568  INFO 10484 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 16:03:10.320  INFO 6112 --- [main] com.example.demo.TestApplication         : Starting TestApplication using Java 1.8.0_301 on DESKTOP-I4UNMCC with PID 6112 (C:\Users\KoYoCo06\git\springbootTest\test\target\classes started by KoYoCo06 in C:\Users\KoYoCo06\git\springbootTest\test)
+2022-02-11 16:03:10.324  INFO 6112 --- [main] com.example.demo.TestApplication         : No active profile set, falling back to default profiles: default
+2022-02-11 16:03:11.196  INFO 6112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-11 16:03:11.267  INFO 6112 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2022-02-11 16:03:12.009  INFO 6112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8073 (http)
+2022-02-11 16:03:12.022  INFO 6112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-11 16:03:12.023  INFO 6112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-11 16:03:12.425  INFO 6112 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-02-11 16:03:12.434  INFO 6112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-11 16:03:12.435  INFO 6112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2037 ms
+2022-02-11 16:03:12.803  INFO 6112 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-11 16:03:12.885  INFO 6112 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-11 16:03:13.136  INFO 6112 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-11 16:03:14.237  INFO 6112 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-02-11 16:03:15.487  INFO 6112 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-11 16:03:15.499  INFO 6112 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 16:03:16.377  INFO 6112 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-02-11 16:03:16.677  INFO 6112 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-11 16:03:16.878  INFO 6112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8073 (http) with context path ''
+2022-02-11 16:03:16.891  INFO 6112 --- [main] com.example.demo.TestApplication         : Started TestApplication in 7.178 seconds (JVM running for 8.266)
+2022-02-11 16:03:31.244  INFO 6112 --- [http-nio-8073-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-11 16:03:31.245  INFO 6112 --- [http-nio-8073-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-11 16:03:31.246  INFO 6112 --- [http-nio-8073-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-11 16:03:31.303  INFO 6112 --- [http-nio-8073-exec-1] c.e.demo.controller.BoardController      : boardController Stage
+2022-02-11 16:03:49.587  INFO 6112 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-02-11 16:03:49.772  INFO 6112 --- [RMI TCP Connection(4)-127.0.0.1] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-02-11 16:03:49.773  INFO 6112 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 16:03:56.707  INFO 5864 --- [main] com.example.demo.TestApplication         : Starting TestApplication using Java 1.8.0_301 on DESKTOP-I4UNMCC with PID 5864 (C:\Users\KoYoCo06\git\springbootTest\test\target\classes started by KoYoCo06 in C:\Users\KoYoCo06\git\springbootTest\test)
+2022-02-11 16:03:56.713  INFO 5864 --- [main] com.example.demo.TestApplication         : No active profile set, falling back to default profiles: default
+2022-02-11 16:03:57.535  INFO 5864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-11 16:03:57.603  INFO 5864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2022-02-11 16:03:58.303  INFO 5864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8073 (http)
+2022-02-11 16:03:58.315  INFO 5864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-11 16:03:58.316  INFO 5864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-11 16:03:58.671  INFO 5864 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-02-11 16:03:58.681  INFO 5864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-11 16:03:58.682  INFO 5864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1883 ms
+2022-02-11 16:03:59.117  INFO 5864 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-11 16:03:59.193  INFO 5864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-11 16:03:59.447  INFO 5864 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-11 16:04:00.588  INFO 5864 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2022-02-11 16:04:01.791  INFO 5864 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-11 16:04:01.803  INFO 5864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-11 16:04:02.619  INFO 5864 --- [main] org.apache.tiles.access.TilesAccess      : Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-02-11 16:04:02.926  INFO 5864 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-11 16:04:03.129  INFO 5864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8073 (http) with context path ''
+2022-02-11 16:04:03.143  INFO 5864 --- [main] com.example.demo.TestApplication         : Started TestApplication in 6.989 seconds (JVM running for 8.133)
+2022-02-11 16:04:22.202  INFO 5864 --- [http-nio-8073-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-11 16:04:22.203  INFO 5864 --- [http-nio-8073-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-11 16:04:22.205  INFO 5864 --- [http-nio-8073-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-02-11 16:04:22.261  INFO 5864 --- [http-nio-8073-exec-1] c.e.demo.controller.BoardController      : boardController Stage
+2022-02-11 16:04:30.210  INFO 5864 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-02-11 16:04:30.388  INFO 5864 --- [RMI TCP Connection(2)-127.0.0.1] org.apache.tiles.access.TilesAccess      : Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2022-02-11 16:04:30.389  INFO 5864 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
